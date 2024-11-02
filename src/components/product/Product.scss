@@ -99,10 +99,13 @@
         transition: .5s;
         cursor: pointer;
         &:hover {
-            background: none;
-            color: #3858D6;
+            background: #5e72c3;
+            color: #fff;
             border: 1px solid #3858D6;
-            transition: .5s;
+            transform: scale(1.02);
+        }
+        &:active{
+            transform: scale(.93);
         }
     }
 }
